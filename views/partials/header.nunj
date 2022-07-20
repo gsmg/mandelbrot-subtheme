@@ -1,6 +1,6 @@
 <div class="Header">
     <a href="{{ path('/') }}" class="Header-title" data-pjax>
-      <img class="Header-logo" src="https://www.gelbeseiten.de/web/images/gelbe-seiten-logo.svg" width="235" height="33" alt="Gelbe Seiten Unternehmen finden">
+      <img class="Header-logo" src="https://www.gelbeseiten.de/webgs/images/gelbe-seiten-logo.svg" width="235" height="33" alt="Gelbe Seiten Unternehmen finden">
       {{ frctl.get('project.title') | default('Component Library') }}
     </a>
     
