@@ -95,9 +95,13 @@
       suggestList.appendChild(li);
     });
   }  
+
+  var removeFrameStateClosedFromLocalStorage = function() {
+    window.localStorage.removeItem("frame.state");
+  }
   
   var loaded = function() {
-    
+    removeFrameStateClosedFromLocalStorage(); 
     element = document.querySelector('.Autosuggest');
     if(!element) {
       return;
